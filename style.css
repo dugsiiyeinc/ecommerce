@@ -13,7 +13,8 @@ body {
     --text-color-2: #8a8a8a;
     --highlight-color: #ff523b;
     --dark-highlight-color: #563434;
-    --bg-color: #ffd6d6;
+    --bg-color: #1c8b6e;
+    --bg1-color: rgba(22, 147, 91, 0.9);
 }
 
 .navbar {
@@ -39,7 +40,15 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: #3a1a1a;
+    font-weight: 500;
+    font-size: 20px;
+}
+a:hover {
+    color: #16935b;
+}
+a:active{
+    color: #0e6b4a;
 }
 
 p {
@@ -78,7 +87,7 @@ p {
 
 .btn {
     display: inline-block;
-    background: var(--highlight-color);
+    background: #1c8b6e;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -87,11 +96,12 @@ p {
 }
 
 .btn:hover {
-    background: var(--dark-highlight-color);
+    background: rgb(49, 100, 79);
+    color: white;
 }
 
 .header {
-    background: radial-gradient(#fff, var(--bg-color));
+    background: radial-gradient(#fffffd, var(--bg1-color));
 }
 
 .header .row {
@@ -141,7 +151,7 @@ p {
 
 .title::after {
     content: '';
-    background: var(--highlight-color);
+    background: #1c8b6e;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -212,7 +222,7 @@ small {
 
 .fa.fa-quote-left {
     font-size: 34px;
-    color: var(--highlight-color);
+    color: #1c8b6e;
 }
 
 .col-3 p {
@@ -252,14 +262,21 @@ small {
 /* ---------------- footer------------ */
 
 .footer {
-    background: #000;
-    color: var(--text-color-2);
-    font-size: 14px;
+    background: #1c8b6e;
+    color: black;
+    font-size: 16px;
     padding: 60px 0 20px;
 }
 
 .footer p {
-    color: var(--text-color-2);
+    color: rgba(0, 0, 0);
+}
+.footer ul li a{
+    color: black;
+    font-size: 20px;
+}
+.footer ul li a:hover{
+    color: rgb(94, 69, 114);
 }
 
 .footer h3 {
@@ -349,7 +366,7 @@ select:focus {
 
 .page-btn span {
     display: inline-block;
-    border: 1px solid var(--highlight-color);
+    border: 1px solid #1c8b6e;
     margin-left: 10px;
     width: 40px;
     height: 40px;
@@ -359,7 +376,7 @@ select:focus {
 }
 
 .page-btn span:hover {
-    background: var(--highlight-color);
+    background: #1c8b6e;
     color: #fff;
 }
 
@@ -574,7 +591,7 @@ form a {
     right: 130px;
     bottom: -65px;
     padding: 10px;
-    background-color: #f44336;
+    background-color: #1c8b6e;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -628,9 +645,9 @@ form a {
 
 .notify {
     position: absolute;
-    right: 76px;
+    right: 152px;
     top: 20px;
-    background-color: red;
+    background-color: #1c8b6e;
     color: white;
     border-radius: 50%;
     font-size: 14px;
@@ -663,9 +680,12 @@ form a {
     }
 
     .notify {
-        right: 98px;
-        top: 15px;
+        right: 99px;
+        top: 20px;
         opacity: 1;
+    }
+    a:hover{
+        color: black;
     }
 }
 
@@ -678,7 +698,7 @@ form a {
         position: absolute;
         top: 70px;
         left: 0;
-        background: #333;
+        background: #1c8b6e;
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
