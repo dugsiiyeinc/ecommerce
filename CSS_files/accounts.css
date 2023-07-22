@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightseagreen;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logout-icon button{
+  position: absolute;
+  padding: 10px 15px;
+  color: #fff;
+  background: green;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  right: 10px;
+  top: 20px;
+}
+#logout-icon {
+  display: none;
+}
+.logout-icon button:hover {
+  background: red;
+}
+
+.logout-icon button a {
+  color: #fff;
+  text-decoration: none;
+}
+#login-message .message-text {
+  font-size: 30px;
+  color: #fff;
+}
+
+form {
+background: #fff;
+padding: 20px 30px;
+width: 400px;
+margin-bottom: 20px;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+margin-top: 50px;
+}
+.form-header {
+  text-align: center;
+  font-family: 'Playfair', serif;
+}
+form .control-form {
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+form .control-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form .control-form input {
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.control-form small {
+  display: block;
+  color: #ec5a36;
+  visibility: hidden;
+}
+.control-form.error  input{
+  border:  1px solid #ec5a36;
+}
+.control-form.success  input{
+  border:  1px solid green;
+}
+.createaccountform {
+  margin-top: 100px;
+}
+.createaccountform .control-form input {
+  margin-bottom: 5px;
+}
+ .toggle-img {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+}
+
+#createBtn,
+.loginBtn  {
+  width: 100%;
+  padding: 10px 20px;
+  background: blueviolet;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.loginBtn a {
+  text-decoration: none;
+  color: #fff;
+}
+#createBtn:hover,
+.loginBtn:hover {
+  background: green;
+} 
+.external-link-text a {
+  text-decoration: none;
+}
+ .addPost {
+  padding: 10px 15px;
+  background: green;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+ }
+/*  
+.posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #333;
+  width: 200px;
+}
+.post img {
+  width: 200px;
+  height: 200px;
+}
+.post h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.post button {
+  padding: 5px 10px;
+  background: green;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.post button:hover {
+  background: red;
+} */ 
+
+@media(max-width: 500px) {
+  form {
+    width: 98%;
+  }
+}

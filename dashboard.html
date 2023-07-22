@@ -1,0 +1,115 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>All ORDERS - Group D</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./CSS_files/dashboard.css">
+  </head>
+
+  <body>
+
+      <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src="images/logo.png" width="125px"></a>
+              </div>
+              <nav>
+                  <ul id="MenuItems">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="products.html">Products</a></li>
+                      <li><a href="./blog.html">Blog</a></li>
+                      <li><a id="accountLink" href="./logIn.html">Account</a></li>
+                  </ul>
+              </nav>
+              <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+              <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+          </div>
+      </div>
+
+
+      <!---------------------Orders --------------------->
+      <div class="containers">
+        <h2>ORDERS</h2>
+          <button id="signOutBtn" class="btn-signout">Sign Out</button>
+          <table>
+              <thead>
+                  <tr">
+                      <th>Order ID</th>
+                      <th>Order Name</th>
+                      <th>Quantity</th>
+                      <th>Total</th>
+                      
+                      </tr>
+              </thead>
+              <tbody>
+                  
+              </tbody>
+          </table>
+      </div>
+
+      <!-- ------------------ footer ----------------  -->
+      <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="footer-col-1">
+                      <h3>Download our App</h3>
+                      <p>Download App for Android and ios mobile phone.</p>
+                      <div class="app-logo">
+                          <img src="images/play-store.png">
+                          <img src="images/app-store.png">
+                      </div>
+                  </div>
+                  <div class="footer-col-2">
+                    <a href="index.html"><h1 style="color: white;">Group D</h1></a>
+                    <p>Making electronic ecommerce accessible and enjoyable for all, while fostering sustainability and
+                        positive impact. Empowering customers with seamless technology-driven shopping experiences.
+                        Envisioning a brighter future for electronic commerce, enriching lives, and promoting community
+                        engagement.</p>
+                  </div>
+                  <div class="footer-col-3">
+                      <h3>Useful Links</h3>
+                      <ul>
+                          <li>Coupons</li>
+                          <li><a href="./blog.html">Blog</a></li>
+                          <li>Return Policy</li>
+                          <li>Join Affiliate</li>
+                      </ul>
+                  </div>
+                  <div class="footer-col-4">
+                      <h3>Follow us</h3>
+                      <ul>
+                          <li>Facebook</li>
+                          <li>Twitter</li>
+                          <li>Instagram</li>
+                          <li>Youtube</li>
+                      </ul>
+                  </div>
+              </div>
+              <hr>
+              <p class="copyright"> Copyright 2023 - Group D</p>
+          </div>
+      </div>
+
+      <!-- ------------ js for toggle menu -----------  -->
+      <script>
+          var MenuItems = document.getElementById("MenuItems");
+          MenuItems.style.maxHeight = "0px";
+
+          function menutoggle() {
+              if (MenuItems.style.maxHeight == "0px") {
+                  MenuItems.style.maxHeight = "200px";
+              } else {
+                  MenuItems.style.maxHeight = "0px";
+              }
+          }
+      </script>
+      <script src="./scripts/dashboard.js"></script>
+  </body>
+
+  </html>

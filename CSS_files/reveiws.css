@@ -1,0 +1,84 @@
+
+:root {
+    --text-color: #555;
+    --text-color-2: #8a8a8a;
+    --highlight-color: #ff523b;
+    --dark-highlight-color: #563434;
+    --bg-color: #ffd6d6;
+}
+.containers h1{
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Times, 'Times New Roman' ;
+    font-size: 250%;
+    position: relative;
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1::after{
+    content: '';
+    width:200px;
+    height: 3px;
+    position: absolute;
+    background:linear-gradient(to right , yellow , orangered);
+    bottom: -20px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.box{
+    width:90%;
+    max-width: 700px;
+    background-color: rgba(178, 34, 34, 0.016);
+    position: relative;
+    border-radius: 5px;
+    
+}
+.head{
+    display: flex;
+    padding: 25px;
+    font-family: sans-serif;
+}
+.flex.cl{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+   padding-left: 25px;
+   display: flex;
+   flex-direction: column;
+}
+#time{
+    margin-top: -20px;
+    opacity: 0.5;
+    margin-left: 3px;
+}
+#name{
+    color:orangered;
+     font-size: 25px;
+}
+.head img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow:  0 0 5px 5px rgba(0, 0, 0, 0.203);
+}
+.card p{
+  margin: 20px 80px 20px 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0px 0px 0px 3px rgba(78, 78, 78, 0.185);
+    margin-bottom: 20px;
+}
+.rating .fa {
+    color: var(--highlight-color);
+}
+@media only screen and (max-width:600px) {
+    .card p{
+        margin: 20px 10px 0px 20px;
+    }
+}

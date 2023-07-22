@@ -1,0 +1,300 @@
+{
+  "customers": [
+    {
+      "id": "1001",
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "password": "123456789",
+      "phone": "555-123-4567",
+      "address": "123 Main St, Anytown, USA",
+      "orders": [
+        {
+          "order_id": "1001-001",
+          "order_date": "2022-01-01",
+          "total": 120.0,
+          "items": [
+            {
+              "item_id": "1001",
+              "item_name": "Wireless Earbuds",
+              "quantity": 2,
+              "price": 59.99,
+              "subtotal": 119.98
+            }
+          ]
+        },
+        {
+          "order_id": "1001-002",
+          "order_date": "2022-02-15",
+          "total": 199.98,
+          "items": [
+            {
+              "item_id": "1006",
+              "item_name": "External Hard Drive",
+              "quantity": 1,
+              "price": 99.99,
+              "subtotal": 99.99
+            },
+            {
+              "item_id": "1015",
+              "item_name": "Virtual Reality Headset",
+              "quantity": 1,
+              "price": 299.99,
+              "subtotal": 299.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "name": "Emily Johnson",
+      "email": "emily.johnson@example.com",
+      "password": "123456789",
+      "phone": "555-987-6543",
+      "address": "456 Oak Ave, Springfield, USA",
+      "orders": [
+        {
+          "order_id": "1002-001",
+          "order_date": "2022-03-10",
+          "total": 249.98,
+          "items": [
+            {
+              "item_id": "1014",
+              "item_name": "Bluetooth Keyboard",
+              "quantity": 1,
+              "price": 49.99,
+              "subtotal": 49.99
+            },
+            {
+              "item_id": "1017",
+              "item_name": "Wireless Gaming Controller",
+              "quantity": 1,
+              "price": 69.99,
+              "subtotal": 69.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003",
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com",
+      "password": "123456789",
+      "phone": "555-555-5555",
+      "address": "789 Elm St, Lakeside, USA",
+      "orders": [
+        {
+          "order_id": "1003-001",
+          "order_date": "2022-04-20",
+          "total": 149.99,
+          "items": [
+            {
+              "item_id": "1010",
+              "item_name": "Fitness Tracker",
+              "quantity": 1,
+              "price": 79.99,
+              "subtotal": 79.99
+            },
+            {
+              "item_id": "1013",
+              "item_name": "Noise Cancelling Headphones",
+              "quantity": 1,
+              "price": 149.99,
+              "subtotal": 149.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1004",
+      "name": "Jessica Lee",
+      "email": "jessica.lee@example.com",
+      "password": "123456789",
+      "phone": "555-111-2222",
+      "address": "555 Pine Rd, Rivertown, USA",
+      "orders": [
+        {
+          "order_id": "1004-001",
+          "order_date": "2022-05-05",
+          "total": 299.99,
+          "items": [
+            {
+              "item_id": "1009",
+              "item_name": "Smart Thermostat",
+              "quantity": 1,
+              "price": 199.99,
+              "subtotal": 199.99
+            },
+            {
+              "item_id": "1015",
+              "item_name": "Virtual Reality Headset",
+              "quantity": 1,
+              "price": 299.99,
+              "subtotal": 299.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1005",
+      "name": "William Davis",
+      "email": "william.davis@example.com",
+      "password": "123456789",
+      "phone": "555-444-3333",
+      "address": "321 Maple Ave, Mountainville, USA",
+      "orders": [
+        {
+          "order_id": "1005-001",
+          "order_date": "2022-06-15",
+          "total": 599.97,
+          "items": [
+            {
+              "item_id": "1003",
+              "item_name": "Wireless Charger",
+              "quantity": 3,
+              "price": 24.99,
+              "subtotal": 74.97
+            },
+            {
+              "item_id": "1007",
+              "item_name": "Bluetooth Speaker",
+              "quantity": 2,
+              "price": 149.99,
+              "subtotal": 299.98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1006",
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@example.com",
+      "password": "123456789",
+      "phone": "555-999-8888",
+      "address": "777 Oakwood Ln, Countryside, USA",
+      "orders": [
+        {
+          "order_id": "1006-001",
+          "order_date": "2022-07-02",
+          "total": 79.98,
+          "items": [
+            {
+              "item_id": "1012",
+              "item_name": "USB-C Cable",
+              "quantity": 2,
+              "price": 19.99,
+              "subtotal": 39.98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1007",
+      "name": "Ethan Taylor",
+      "email": "ethan.taylor@example.com",
+      "password": "123456789",
+      "phone": "555-777-6666",
+      "address": "888 Walnut St, Suburbia, USA",
+      "orders": [
+        {
+          "order_id": "1007-001",
+          "order_date": "2022-08-10",
+          "total": 119.99,
+          "items": [
+            {
+              "item_id": "1011",
+              "item_name": "Portable Phone Charger",
+              "quantity": 1,
+              "price": 39.99,
+              "subtotal": 39.99
+            },
+            {
+              "item_id": "1007",
+              "item_name": "Bluetooth Speaker",
+              "quantity": 2,
+              "price": 149.99,
+              "subtotal": 299.98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1008",
+      "name": "Olivia Wilson",
+      "email": "olivia.wilson@example.com",
+      "password": "123456789",
+      "phone": "555-222-1111",
+      "address": "999 Elmwood Dr, Cityville, USA",
+      "orders": [
+        {
+          "order_id": "1008-001",
+          "order_date": "2022-09-20",
+          "total": 179.97,
+          "items": [
+            {
+              "item_id": "1008",
+              "item_name": "Smart Lock",
+              "quantity": 3,
+              "price": 59.99,
+              "subtotal": 179.97
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1009",
+      "name": "Noah Anderson",
+      "email": "noah.anderson@example.com",
+      "password": "123456789",
+      "phone": "555-666-7777",
+      "address": "777 Cherry Ave, Smalltown, USA",
+      "orders": [
+        {
+          "order_id": "1009-001",
+          "order_date": "2022-10-05",
+          "total": 499.99,
+          "items": [
+            {
+              "item_id": "1005",
+              "item_name": "Smart TV",
+              "quantity": 1,
+              "price": 499.99,
+              "subtotal": 499.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1010",
+      "name": "Ava Moore",
+      "email": "ava.moore@example.com",
+      "password": "123456789",
+      "phone": "555-333-4444",
+      "address": "123 Pine St, Countryside, USA",
+      "orders": [
+        {
+          "order_id": "1010-001",
+          "order_date": "2022-11-15",
+          "total": 159.99,
+          "items": [
+            {
+              "item_id": "1002",
+              "item_name": "Smart Watch",
+              "quantity": 1,
+              "price": 159.99,
+              "subtotal": 159.99
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

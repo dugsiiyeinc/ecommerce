@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./CSS_files/accounts.css">
+  <title>Sign in</title>
+</head>
+<body>
+  <div class="container">
+    <h2 id="welcomeMessage" class="welcomeMessage">Welcome, please Sign in <span id="firstName"></span>!</h2>
+   <form id="signinForm" class="signinForm">
+      <div class="form-header">
+        <h1>Sign in</h1>
+      </div>
+      <div class="control-form">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="email" placeholder="Enter Your email">
+        <small>Error Message</small>
+      </div>
+      <div class="control-form">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="password" placeholder="Enter Your password">
+        <img class="toggle-img"  id="passwordSignIn-Toggle" src="images/close.png" alt="">
+        <small>Error Message</small>
+      </div>
+      <div class="login-btn">
+        <button type="submit" class="loginBtn">Sign in</button>
+      </div>
+ </form>
+ <div class="external-link-text">
+  <p>I don't have an account? <a href="signUp.html">Sign Up</a></p>
+ </div>
+  </div>
+  <script src="./scripts/logIn.js"></script>
+</body>
+</body>
+</html>

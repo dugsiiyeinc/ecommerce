@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS_files/accounts.css">
+  <title>Sign Up</title>
+</head>
+<body>
+  <div class="container">
+    <form id="form" class="form">
+      <div class="form-header">
+        <h1>Sign Up</h1>
+      </div>
+      <div class="control-form">
+        <label for="name">FullName</label>
+        <input type="text" id="name" class="name" placeholder="Enter Your Full Name">
+        <small>Error Message</small>
+      </div>
+      <div class="control-form">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="email" placeholder="Enter Your email">
+        <small>Error Message</small>
+      </div>
+      <div class="control-form">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="password" placeholder="Enter Your password">
+        <img class="toggle-img" id="password-toggle"  src="images/close.png" alt="">
+        <small>Error Message</small>
+      </div>
+      <div class="control-form">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" class="confirmPassword" placeholder="Confirm password">
+        <img class="toggle-img" id="confirmPassword-toggle"   src="images/close.png" alt="">
+        <small>Error Message</small>
+      </div>
+        <button type="submit" id="createBtn">Create New Account</button>
+    </form>
+ <div class="external-link-text">
+  <p>Already  have an account? <a href="./logIn.html">Sign in</a></p>
+ </div>
+  </div>
+  <script src="./scripts/signUp.js"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+{
+  "orders": [
+    {
+      "id": "2023001",
+      "date": "2022-01-02",
+      "customer_name": "John Smith",
+      "customer_email": "john.smith@gmail.com",
+      "items": [
+        {
+          "product_id": "1018",
+          "name": "Smart Scale",
+          "quantity": 1,
+          "price": 79.99
+        }
+      ],
+      "total_price": 79.99,
+      "status": "Delivered"
+    },
+    {
+      "id": "2023002",
+      "date": "2022-03-15",
+      "customer_name": "Emily Johnson",
+      "customer_email": "emily.johnson@example.com",
+      "items": [
+        {
+          "product_id": "1006",
+          "name": "External Hard Drive",
+          "quantity": 2,
+          "price": 99.99
+        },
+        {
+          "product_id": "1014",
+          "name": "Bluetooth Keyboard",
+          "quantity": 1,
+          "price": 49.99
+        }
+      ],
+      "total_price": 249.96,
+      "status": "In Transit"
+    },
+    {
+      "id": "2023003",
+      "date": "2022-05-20",
+      "customer_name": "Michael Brown",
+      "customer_email": "michael.brown@example.com",
+      "items": [
+        {
+          "product_id": "1010",
+          "name": "Fitness Tracker",
+          "quantity": 1,
+          "price": 79.99
+        },
+        {
+          "product_id": "1013",
+          "name": "Noise Cancelling Headphones",
+          "quantity": 1,
+          "price": 149.99
+        },
+        {
+          "product_id": "1007",
+          "name": "Bluetooth Speaker",
+          "quantity": 1,
+          "price": 149.99
+        }
+      ],
+      "total_price": 379.97,
+      "status": "Delivered"
+    },
+    {
+      "id": "2023004",
+      "date": "2022-06-10",
+      "customer_name": "Jessica Lee",
+      "customer_email": "jessica.lee@example.com",
+      "items": [
+        {
+          "product_id": "1009",
+          "name": "Smart Thermostat",
+          "quantity": 1,
+          "price": 199.99
+        }
+      ],
+      "total_price": 199.99,
+      "status": "Delivered"
+    },
+    {
+      "id": "2023005",
+      "date": "2022-08-15",
+      "customer_name": "William Davis",
+      "customer_email": "william.davis@example.com",
+      "items": [
+        {
+          "product_id": "1003",
+          "name": "Wireless Charger",
+          "quantity": 2,
+          "price": 24.99
+        },
+        {
+          "product_id": "1007",
+          "name": "Bluetooth Speaker",
+          "quantity": 1,
+          "price": 149.99
+        }
+      ],
+      "total_price": 199.97,
+      "status": "Delivered"
+    },
+    {
+      "id": "2023006",
+      "date": "2022-09-05",
+      "customer_name": "Sophia Martinez",
+      "customer_email": "sophia.martinez@example.com",
+      "items": [
+        {
+          "product_id": "1012",
+          "name": "USB-C Cable",
+          "quantity": 1,
+          "price": 19.99
+        },
+        {
+          "product_id": "1008",
+          "name": "Smart Lock",
+          "quantity": 2,
+          "price": 59.99
+        }
+      ],
+      "total_price": 139.97,
+      "status": "Delivered"
+    },
+    {
+      "id": "2023007",
+      "date": "2022-11-20",
+      "customer_name": "Ethan Taylor",
+      "customer_email": "ethan.taylor@example.com",
+      "items": [
+        {
+          "product_id": "1011",
+          "name": "Portable Phone Charger",
+          "quantity": 1,
+          "price": 39.99
+        },
+        {
+          "product_id": "1007",
+          "name": "Bluetooth Speaker",
+          "quantity": 1,
+          "price": 149.99
+        },
+        {
+          "product_id": "1015",
+          "name": "Virtual Reality Headset",
+          "quantity": 1,
+          "price": 299.99
+        }
+      ],
+      "total_price": 489.97,
+      "status": "Processing"
+    },
+    {
+      "id": "2023008",
+      "date": "2022-12-10",
+      "customer_name": "Olivia Wilson",
+      "customer_email": "olivia.wilson@example.com",
+      "items": [
+        {
+          "product_id": "1008",
+          "name": "Smart Lock",
+          "quantity": 1,
+          "price": 59.99
+        },
+        {
+          "product_id": "1001",
+          "name": "Wireless Earbuds",
+          "quantity": 2,
+          "price": 59.99
+        },
+        {
+          "product_id": "1006",
+          "name": "External Hard Drive",
+          "quantity": 1,
+          "price": 99.99
+        }
+      ],
+      "total_price": 279.95,
+      "status": "Processing"
+    },
+    {
+      "id": "2023009",
+      "date": "2022-12-25",
+      "customer_name": "Noah Anderson",
+      "customer_email": "noah.anderson@example.com",
+      "items": [
+        {
+          "product_id": "1005",
+          "name": "Smart TV",
+          "quantity": 1,
+          "price": 499.99
+        },
+        {
+          "product_id": "1007",
+          "name": "Bluetooth Speaker",
+          "quantity": 1,
+          "price": 149.99
+        }
+      ],
+      "total_price": 649.98,
+      "status": "Shipped"
+    },
+    {
+      "id": "2023010",
+      "date": "2023-01-15",
+      "customer_name": "Ava Moore",
+      "customer_email": "ava.moore@example.com",
+      "items": [
+        {
+          "product_id": "1002",
+          "name": "Smart Watch",
+          "quantity": 1,
+          "price": 159.99
+        },
+        {
+          "product_id": "1003",
+          "name": "Wireless Charger",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "total_price": 184.98,
+      "status": "Shipped"
+    }
+  ]
+}
