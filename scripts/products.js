@@ -7,7 +7,6 @@ let currentPage = 1;
 let productsPerPage = 8;
 let selectedSort = "latest";
 let productsData = [];
-let selectedProduct = null;
 
 async function fetchProducts() {
   try {
@@ -37,6 +36,7 @@ function sortProducts(products) {
   }
 }
 
+
 function renderProducts() {
   const startIndex = (currentPage - 1) * productsPerPage;
   const endIndex = startIndex + productsPerPage;
@@ -44,7 +44,7 @@ function renderProducts() {
     productsData.filter((product) => product.in_stock)
   );
   const paginatedProducts = sortedProducts.slice(startIndex, endIndex);
-
+  
   allProducts.innerHTML = "";
   let row = document.createElement("div");
   row.classList.add("row");
@@ -92,9 +92,9 @@ function getRatingStars(rating) {
   const emptyStars = '<i class="fa fa-star-o"></i>'.repeat(5 - rating);
   return filledStars + emptyStars;
 }
-
 function renderPagination() {
   const totalPages = Math.ceil(productsData.length / productsPerPage);
+  console.log(totalPages)
   pageButtonsContainer.innerHTML = "";
 
   for (let i = 1; i <= totalPages; i++) {
@@ -174,9 +174,6 @@ function setupAddToCartButtons() {
   });
 }
 
-function getSelectedProduct() {
-  return selectedProduct;
-}
 
 function afterSuccessfulSignIn() {
   const isLoggedIn = checkIfLoggedIn();

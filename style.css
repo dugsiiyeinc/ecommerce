@@ -171,7 +171,7 @@ h4 {
 }
 
 .rating .fa {
-    color: var(--highlight-color);
+    color: #E59819;
 }
 
 .col-4:hover {
@@ -270,6 +270,7 @@ small {
 
 .footer p {
     color: rgba(0, 0, 0);
+    text-align: center;
 }
 .footer ul li a{
     color: black;

@@ -55,8 +55,6 @@ function displayCartItems() {
           )}</td>
         </tr>
       `;
-
-      total += product.price * product.quantity;
     });
 
     cartTable += `
@@ -71,7 +69,7 @@ function displayCartItems() {
       </div>
       <div class ="btns">
       <a href="#" class="btn checkout" id="checkoutBtn">Checkout</a>
-      <a href="#" class="btn whatsApp" id="whatsApp">Buy Via WhatsApp</a>
+      <a href="#" class="btn whatsApp" style="font-size:16px;" id="whatsApp">Buy Via WhatsApp</a>
       </div>
     `;
 
@@ -243,7 +241,7 @@ function removeCartItem(index) {
       // Update the total price
       let total = 0;
       products.forEach((product) => {
-        total += product.price * product.quantity;
+        total = product.price * product.quantity;
       });
       const totalCell = document.querySelector(".total-price td:last-child");
       totalCell.textContent = `$${total.toFixed(2)}`;

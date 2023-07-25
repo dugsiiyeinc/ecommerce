@@ -17,12 +17,8 @@ async function fetchProducts() {
             <h4>${product.name}</h4>
           </a>
           <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
+          ${getRatingStars(product.rating)}
+      </div>
           <p>$${product.price}</p>
           <a href="#" class="btn addToCartBtn" data-product-id="${product.id}">Add To Cart</a>
         </div>
@@ -30,11 +26,11 @@ async function fetchProducts() {
     }
   });
 
-  const lastFiveProducts = products.slice(-8);
-  lastFiveProducts.forEach((product) => {
+  const lastEightProducts = products.slice(-8);
+  lastEightProducts.forEach((product) => {
     if (product.in_stock) {
       latest.innerHTML += `
-      <div class="col-4" data-product-id="${product.id}">
+      <div class="col-4" data-product -id="${product.id}">
       <a href="products-details.html?productId=${product.id}"><img src="${
         product.image_url
       }"></a>
@@ -102,7 +98,6 @@ function addToCart(productData) {
     }).then((result) => {
       if (result.isConfirmed) {
         window.location.href = "./logIn.html";
-      } else {
       }
     });
   }
