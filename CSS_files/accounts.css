@@ -5,7 +5,8 @@
 }
 
 body {
-  background: lightseagreen;
+  background: #1c8b6e;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -109,7 +110,7 @@ form .control-form input {
 .loginBtn  {
   width: 100%;
   padding: 10px 20px;
-  background: blueviolet;
+  background: #1c8b6e;
   color: #fff;
   cursor: pointer;
   border: none;
@@ -122,7 +123,7 @@ form .control-form input {
 }
 #createBtn:hover,
 .loginBtn:hover {
-  background: green;
+  background: #1c8b6db8;
 } 
 .external-link-text a {
   text-decoration: none;

@@ -14,7 +14,6 @@ function displayCartItems() {
           <th>Product</th>
           <th>Quantity</th>
           <th>Subtotal</th>
-          <th>Action</th>
         </tr>
     `;
 

@@ -22,7 +22,7 @@ h1::after{
     width:200px;
     height: 3px;
     position: absolute;
-    background:linear-gradient(to right , yellow , orangered);
+    background:linear-gradient(to right , white , #1c8b6e);
     bottom: -20px;
     left:50%;
     transform: translateX(-50%);
@@ -55,7 +55,7 @@ h1::after{
     margin-left: 3px;
 }
 #name{
-    color:orangered;
+    color:#1c8b6e;
      font-size: 25px;
 }
 .head img{

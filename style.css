@@ -457,7 +457,7 @@ th {
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: var(--highlight-color);
+    background: #1c8b6e;
     font-weight: normal;
 }
 
@@ -636,7 +636,7 @@ form a {
     right: 390px;
     bottom: -65px;
     padding: 10px;
-    background-color: green;
+    background-color: #1c8b6e;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
