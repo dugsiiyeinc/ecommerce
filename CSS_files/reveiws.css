@@ -75,7 +75,7 @@ h1::after{
     margin-bottom: 20px;
 }
 .rating .fa {
-    color: var(--highlight-color);
+    color: #1c8b6e;
 }
 @media only screen and (max-width:600px) {
     .card p{
