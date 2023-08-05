@@ -380,6 +380,10 @@ select:focus {
     background: #1c8b6e;
     color: #fff;
 }
+.active{
+    background: #1c8b6e;
+    color: #fff;
+}
 
 
 /* ----------------- single product  details --------------  */
