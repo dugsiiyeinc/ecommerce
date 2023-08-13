@@ -1,10 +1,19 @@
+# Group Members
+This project was developed collaboratively by a team of skilled individuals, each contributing their expertise to bring the Ecommerce project to life:
+
+- Feisal Aden
+- Mohamed Aar
+- Mohamed Ahmed
+- Khalid Yare
+- Usama Said
+
 # Ecommerce Project
 
 Welcome to the Ecommerce project! This project is a simple ecommerce website that uses JavaScript, HTML, CSS, and JSON to manage products, customers, orders, blogs, and more.
 
 ## Demo
 
-Check out the live demo of the Ecommerce website on Vercel: [Ecommerce Demo](https://ecommerce-usaame19.vercel.app/)
+Check out the live demo of the Ecommerce website on Vercel: [Ecommerce Demo](https://ganacsi.vercel.app/)
 
 ## Table of Contents
 
@@ -32,7 +41,7 @@ The Ecommerce project is a web application that allows users to browse through p
 
 To run the Ecommerce project locally on your machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/dugsiiyeinc/ecommerce`
+1. Clone the repository: `git clone <https://github.com/usaame19/ecommerce>`
 2. Navigate to the project folder: `cd ecommerce`
 3. Open the index.html file in your web browser.
 

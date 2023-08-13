@@ -127,6 +127,11 @@ form .control-form input {
 } 
 .external-link-text a {
   text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.external-link-text a:hover {
+  color: #00FF00;
 }
  .addPost {
   padding: 10px 15px;
@@ -137,41 +142,7 @@ form .control-form input {
   font-size: 18px;
   color: #fff;
  }
-/*  
-.posts {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-}
-.post {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  color: #333;
-  width: 200px;
-}
-.post img {
-  width: 200px;
-  height: 200px;
-}
-.post h1 {
-  text-align: center;
-  font-size: 20px;
-}
 
-
-.post button {
-  padding: 5px 10px;
-  background: green;
-  font-size: 15px;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-.post button:hover {
-  background: red;
-} */ 
 
 @media(max-width: 500px) {
   form {

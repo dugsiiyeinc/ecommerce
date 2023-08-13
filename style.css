@@ -139,6 +139,7 @@ p {
 
 .col-4 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .title {
@@ -351,7 +352,7 @@ ul {
 }
 
 select {
-    border: 1px solid var(--highlight-color);
+    border: 1px solid #1c8b6e;
     padding: 5px;
 }
 
@@ -394,6 +395,7 @@ select:focus {
 
 .single-product .col-2 img {
     padding: 0;
+    border-radius: 5px;
 }
 
 .single-product .col-2 {
@@ -418,7 +420,7 @@ select:focus {
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid var(--highlight-color);
+    border: 1px solid #1c8b6e;
 }
 
 input:focus {
@@ -426,7 +428,7 @@ input:focus {
 }
 
 .single-product .fa {
-    color: var(--highlight-color);
+    color: #1c8b6e;
     margin-left: 20px;
 }
 
@@ -476,8 +478,11 @@ td input {
 }
 
 td a {
-    color: var(--highlight-color);
+    color: #1c8b6e;
     font-size: 12px;
+}
+td a:hover{
+    color: green;
 }
 
 td img {
@@ -492,7 +497,7 @@ td img {
 }
 
 .total-price table {
-    border-top: 3px solid var(--highlight-color);
+    border-top: 3px solid #1c8b6e;
     width: 100%;
     max-width: 400px;
 }
