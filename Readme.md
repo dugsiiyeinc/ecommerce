@@ -7,6 +7,7 @@ This project was developed collaboratively by a team of skilled individuals, eac
 - Khalid Yare [GitHub](https://github.com/khaalid-yare)
 - Usama Said [GitHub](https://github.com/usaame19)
 
+
 # Ecommerce Project
 
 Welcome to the Ecommerce project! This project is a simple ecommerce website that uses JavaScript, HTML, CSS, and JSON to manage products, customers, orders, blogs, and more.
