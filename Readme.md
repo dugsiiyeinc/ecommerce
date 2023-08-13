@@ -1,11 +1,12 @@
 # Group Members
 This project was developed collaboratively by a team of skilled individuals, each contributing their expertise to bring the Ecommerce project to life:
 
-- Feisal Aden
-- Mohamed Aar
-- Mohamed Ahmed
-- Khalid Yare
-- Usama Said
+- Feisal Aden [GitHub](https://github.com/Feisal2023)
+- Mohamed Aar [GitHub](https://github.com/Aarka8888)
+- Mohamed Ahmed [GitHub](https://github.com/moTheDev)
+- Khalid Yare [GitHub](https://github.com/khaalid-yare)
+- Usama Said [GitHub](https://github.com/usaame19)
+
 
 # Ecommerce Project
 
