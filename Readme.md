@@ -4,7 +4,7 @@ Welcome to the Ecommerce project! This project is a simple ecommerce website tha
 
 ## Demo
 
-Check out the live demo of the Ecommerce website on Vercel: [Ecommerce Demo](https://ecommerce-usaame19.vercel.app/)
+Check out the live demo of the Ecommerce website on Vercel: [Ecommerce Demo](https://ganacsi.vercel.app/)
 
 ## Table of Contents
 
